@@ -2461,10 +2461,9 @@ Counter Factor=1
 Good Name=Indiana Jones and the Infernal Machine (E) (Unreleased)
 Internal Name=Indiana Jones
 Status=Issues (plugin)
-Plugin Note=[video] HLE not supported
+Plugin Note=
 AudioResetOnLoad=Yes
 Fast SP=No
-HLE GFX=No
 Linking=Off
 RDRAM Size=8
 RSP-JumpTableSize=3584
@@ -2478,10 +2477,9 @@ ViRefresh=1800
 Good Name=Indiana Jones and the Infernal Machine (U)
 Internal Name=Indiana Jones
 Status=Issues (plugin)
-Plugin Note=[video] HLE not supported
+Plugin Note=
 AudioResetOnLoad=Yes
 Fast SP=No
-HLE GFX=No
 Linking=Off
 RDRAM Size=8
 RSP-JumpTableSize=3584
@@ -3816,15 +3814,13 @@ RDRAM Size=8
 Good Name=NFL Quarterback Club 98 (E)
 Internal Name=quarterback_club_98
 Status=Compatible
-Plugin Note=[video] HLE not supported
-HLE GFX=No
+Plugin Note=
 
 [D89BE2F8-99C97ADF-C:45]
 Good Name=NFL Quarterback Club 98 (U)
 Internal Name=quarterback_club_98
 Status=Compatible
-Plugin Note=[video] HLE not supported
-HLE GFX=No
+Plugin Note=
 
 [52A3CF47-4EC13BFC-C:50]
 Good Name=NFL Quarterback Club 99 (E)
@@ -5342,10 +5338,9 @@ RDRAM Size=8
 Good Name=Star Wars Episode I - Battle for Naboo (E)
 Internal Name=Battle for Naboo
 Status=Issues (plugin)
-Plugin Note=[video] HLE not supported
+Plugin Note=
 AudioResetOnLoad=Yes
 Counter Factor=1
-HLE GFX=No
 RDRAM Size=8
 SMM-FUNC=0
 
@@ -5353,10 +5348,9 @@ SMM-FUNC=0
 Good Name=Star Wars Episode I - Battle for Naboo (U)
 Internal Name=Battle for Naboo
 Status=Issues (plugin)
-Plugin Note=[video] HLE not supported
+Plugin Note=
 AudioResetOnLoad=Yes
 Counter Factor=1
-HLE GFX=No
 RDRAM Size=8
 SMM-FUNC=0
 
@@ -5443,9 +5437,8 @@ Status=Compatible
 Good Name=Stunt Racer 64 (U)
 Internal Name=Stunt Racer 64
 Status=Issues (plugin)
-Plugin Note=[video] HLE not supported [audio] needs audio plugin
+Plugin Note=[audio] needs audio plugin
 AudioResetOnLoad=Yes
-HLE GFX=No
 RDRAM Size=8
 RSP-Mfc0Count=10
 
@@ -6735,18 +6728,16 @@ Reg Cache=No
 Good Name=World Driver Championship (E) (M5)
 Internal Name=WORLD DRIVER CHAMP
 Status=Issues (plugin)
-Plugin Note=[video] HLE not supported [audio] needs audio plugin
+Plugin Note=[audio] needs audio plugin
 AudioResetOnLoad=Yes
-HLE GFX=No
 RSP-Mfc0Count=10
 
 [308DFEC8-CE2EB5F6-C:45]
 Good Name=World Driver Championship (U)
 Internal Name=WORLD DRIVER CHAMP
 Status=Issues (plugin)
-Plugin Note=[video] HLE not supported [audio] needs audio plugin
+Plugin Note=[audio] needs audio plugin
 AudioResetOnLoad=Yes
-HLE GFX=No
 RSP-Mfc0Count=10
 
 [2D21C57B-8FE4C58C-C:50]
