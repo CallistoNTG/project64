@@ -1217,25 +1217,6 @@ void CN64System::SyncCPU(CN64System * const SecondCPU)
     {
         ErrorFound = true;
     }
-    if (b32BitCore())
-    {
-        for (int count = 0; count < 32; count++)
-        {
-            if (m_Reg.m_GPR[count].W[0] != SecondCPU->m_Reg.m_GPR[count].W[0])
-            {
-                ErrorFound = true;
-            }
-            if (m_Reg.m_FPR[count].DW != SecondCPU->m_Reg.m_FPR[count].DW)
-            {
-                ErrorFound = true;
-            }
-            if (m_Reg.m_CP0[count] != SecondCPU->m_Reg.m_CP0[count])
-            {
-                ErrorFound = true;
-            }
-        }
-    }
-    else
     {
         for (int count = 0; count < 32; count++)
         {
@@ -1367,19 +1348,6 @@ void CN64System::DumpSyncErrors(CN64System * SecondCPU)
         {
             Error.LogF("PROGRAM_COUNTER 0x%X,         0x%X\r\n", m_Reg.m_PROGRAM_COUNTER, SecondCPU->m_Reg.m_PROGRAM_COUNTER);
         }
-        if (b32BitCore())
-        {
-            for (count = 0; count < 32; count++)
-            {
-                if (m_Reg.m_GPR[count].UW[0] != SecondCPU->m_Reg.m_GPR[count].UW[0])
-                {
-                    Error.LogF("GPR[%s] 0x%08X%08X, 0x%08X%08X\r\n", CRegName::GPR[count],
-                        m_Reg.m_GPR[count].W[1], m_Reg.m_GPR[count].W[0],
-                        SecondCPU->m_Reg.m_GPR[count].W[1], SecondCPU->m_Reg.m_GPR[count].W[0]);
-                }
-            }
-        }
-        else
         {
             for (count = 0; count < 32; count++)
             {

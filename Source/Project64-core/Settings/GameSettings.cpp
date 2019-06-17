@@ -30,7 +30,6 @@ bool CGameSettings::m_bFixedAudio = true;
 bool CGameSettings::m_bSyncToAudio = true;
 bool CGameSettings::m_FullSpeed = true;
 bool CGameSettings::m_bFastSP = true;
-bool CGameSettings::m_b32Bit = true;
 bool CGameSettings::m_RspAudioSignal;
 bool CGameSettings::m_bRomInMemory;
 bool CGameSettings::m_RegCaching;
@@ -58,7 +57,6 @@ void CGameSettings::RefreshGameSettings()
     m_DelayDP = g_Settings->LoadBool(Game_DelayDP);
     m_bFixedAudio = g_Settings->LoadBool(Game_FixedAudio);
     m_FullSpeed = g_Settings->LoadBool(Game_FullSpeed);
-    m_b32Bit = g_Settings->LoadBool(Game_32Bit);
 #ifdef ANDROID
     m_bFastSP = false;
 #else

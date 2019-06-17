@@ -291,7 +291,6 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(ROM_CUSTOM_SMM, "Custom self mod Method");
     DEF_STR(ROM_SYNC_AUDIO, "Sync using audio");
     DEF_STR(ROM_COUNTPERBYTE, "AI count per byte:");
-    DEF_STR(ROM_32BIT, "32-bit engine:");
     DEF_STR(ROM_DELAY_DP, "Delay DP interrupt:");
     DEF_STR(ROM_OVER_CLOCK_MODIFIER, "Overclock modifier:");
     DEF_STR(ROM_UNALIGNED_DMA, "Unaligned DMA");

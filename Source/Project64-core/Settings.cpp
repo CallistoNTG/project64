@@ -144,7 +144,6 @@ void CSettings::AddHowToHandleSetting(const char * BaseDirectory)
 	AddHandler(Default_ViRefreshRate, new CSettingTypeApplication("Defaults", "ViRefresh", 1500u));
 	AddHandler(Default_AiCountPerBytes, new CSettingTypeApplication("Defaults", "AiCountPerBytes", 0u));
 	AddHandler(Default_CounterFactor, new CSettingTypeApplication("Defaults", "Counter Factor", 2u));
-	AddHandler(Default_32Bit, new CSettingTypeApplication("Defaults", "32bit", true));
 	AddHandler(Default_SyncViaAudio, new CSettingTypeApplication("Defaults", "Audio-Sync Audio", true));
 	AddHandler(Default_FixedAudio, new CSettingTypeApplication("Defaults", "Fixed Audio", true));
     AddHandler(Default_UnalignedDMA, new CSettingTypeApplication("Defaults", "Unaligned DMA", false));
@@ -161,7 +160,6 @@ void CSettings::AddHowToHandleSetting(const char * BaseDirectory)
     AddHandler(Rdb_UseTlb, new CSettingTypeRDBYesNo("Use TLB", Default_UseTlb));
     AddHandler(Rdb_DelayDP, new CSettingTypeRDBYesNo("Delay DP", true));
     AddHandler(Rdb_DelaySi, new CSettingTypeRDBYesNo("Delay SI", false));
-    AddHandler(Rdb_32Bit, new CSettingTypeRDBYesNo("32bit", Default_32Bit));
     AddHandler(Rdb_FastSP, new CSettingTypeRDBYesNo("Fast SP", true));
     AddHandler(Rdb_FixedAudio, new CSettingTypeRomDatabase("Fixed Audio", Default_FixedAudio));
     AddHandler(Rdb_SyncViaAudio, new CSettingTypeRomDatabase("Audio-Sync Audio", Default_SyncViaAudio));
@@ -220,7 +218,6 @@ void CSettings::AddHowToHandleSetting(const char * BaseDirectory)
     AddHandler(Game_DelayDP, new CSettingTypeGame("Delay DP", Rdb_DelayDP));
     AddHandler(Game_DelaySI, new CSettingTypeGame("Delay SI", Rdb_DelaySi));
     AddHandler(Game_RspAudioSignal, new CSettingTypeGame("Audio Signal", Rdb_RspAudioSignal));
-    AddHandler(Game_32Bit, new CSettingTypeGame("32bit", Rdb_32Bit));
     AddHandler(Game_FastSP, new CSettingTypeGame("Fast SP", Rdb_FastSP));
 #ifdef ANDROID
     AddHandler(Game_CurrentSaveState, new CSettingTypeTempNumber(1));

@@ -152,7 +152,6 @@ Bad ROM?.AutoFullScreen=False
 //================  0-9  ================
 [B2242748-FFBD61DA-C:45]
 Good Name=007 - Goldfinger (Beta)
-32bit=No
 Counter Factor=1
 Fast SP=No
 Internal Name=GOLDFINGER
@@ -234,7 +233,6 @@ Good Name=A Bug's Life (E)
 Internal Name=A Bug's Life
 Status=Compatible
 Counter Factor=1
-32bit=No
 ViRefresh=2200
 
 [2B38AEC0-6350B810-C:46]
@@ -242,7 +240,6 @@ Good Name=A Bug's Life (F)
 Internal Name=A Bug's Life
 Status=Compatible
 Counter Factor=1
-32bit=No
 ViRefresh=2200
 
 [DFF227D9-0D4D8169-C:44]
@@ -250,7 +247,6 @@ Good Name=A Bug's Life (G)
 Internal Name=A Bug's Life
 Status=Compatible
 Counter Factor=1
-32bit=No
 ViRefresh=2200
 
 [F63B89CE-4582D57D-C:49]
@@ -258,7 +254,6 @@ Good Name=A Bug's Life (I)
 Internal Name=A Bug's Life
 Status=Compatible
 Counter Factor=1
-32bit=No
 ViRefresh=2200
 
 [82DC04FD-CF2D82F4-C:45]
@@ -266,7 +261,6 @@ Good Name=A Bug's Life (U)
 Internal Name=A Bug's Life
 Status=Compatible
 Counter Factor=1
-32bit=No
 ViRefresh=2200
 
 [62F6BE95-F102D6D6-C:50]
@@ -700,7 +694,6 @@ Good Name=Biohazard 2 (J)
 Internal Name=BioHazard II
 Status=Compatible
 Plugin Note=[Glide64] some glitched backgrounds
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 Linking=Off
@@ -709,25 +702,21 @@ Linking=Off
 Good Name=Blast Corps (E)
 Internal Name=Blast Corps
 Status=Compatible
-32bit=No
 
 [7C647C25-D9D901E6-C:45]
 Good Name=Blast Corps (U) (V1.0)
 Internal Name=Blast Corps
 Status=Compatible
-32bit=No
 
 [7C647E65-1948D305-C:45]
 Good Name=Blast Corps (U) (V1.1)
 Internal Name=Blast Corps
 Status=Compatible
-32bit=No
 
 [65234451-EBD3346F-C:4A]
 Good Name=Blast Dozer (J)
 Internal Name=Blastdozer
 Status=Compatible
-32bit=No
 
 [D571C883-822D3FCF-C:50]
 Good Name=Blues Brothers 2000 (E) (M6)
@@ -851,13 +840,11 @@ Status=Compatible
 Good Name=Buck Bumble (J)
 Internal Name=BUCK BUMBLE
 Status=Compatible
-32bit=No
 
 [85AE781A-C756F05D-C:45]
 Good Name=Buck Bumble (U)
 Internal Name=BUCK BUMBLE
 Status=Compatible
-32bit=No
 
 [4222D89F-AFE0B637-C:45]
 Good Name=Bust-A-Move '99 (U)
@@ -1167,7 +1154,6 @@ Good Name=Conker's Bad Fur Day (E)
 Internal Name=CONKER BFD
 Status=Compatible
 Plugin Note=[Glide64] broken mipmapping, certain FB effects missing
-32bit=No
 Clear Frame=2
 Culling=1
 Emulate Clear=1
@@ -1184,7 +1170,6 @@ Good Name=Conker's Bad Fur Day (U) (Debug Version)
 Internal Name=CONKER BFD DEBUG
 Status=Compatible
 Plugin Note=[Glide64] broken mipmapping, certain FB effects missing
-32bit=No
 Clear Frame=2
 Culling=1
 Emulate Clear=1
@@ -1201,7 +1186,6 @@ Good Name=Conker's Bad Fur Day (U) (ECTS Demo)
 Internal Name=CBFD ECTS
 Status=Compatible
 Plugin Note=[Glide64] broken mipmapping, certain FB effects missing
-32bit=No
 Clear Frame=2
 Culling=1
 Emulate Clear=1
@@ -1219,7 +1203,6 @@ Good Name=Conker's Bad Fur Day (U)
 Internal Name=CONKER BFD
 Status=Compatible
 Plugin Note=[Glide64] broken mipmapping, certain FB effects missing
-32bit=No
 Clear Frame=2
 Culling=1
 Emulate Clear=1
@@ -1391,38 +1374,32 @@ Save Type=Sram
 Good Name=Diddy Kong Racing (E) (M3) (V1.0)
 Internal Name=Diddy Kong Racing
 Status=Compatible
-32bit=No
 
 [596E145B-F7D9879F-C:50]
 Good Name=Diddy Kong Racing (E) (M3) (V1.1)
 Internal Name=Diddy Kong Racing
 Status=Compatible
-32bit=No
 
 [7435C9BB-39763CF4-C:4A]
 Good Name=Diddy Kong Racing (J)
 Internal Name=Diddy Kong Racing
 Status=Compatible
-32bit=No
 
 [F389A35A-17785562-C:4A]
 Good Name=Diddy Kong Racing (J)
 Internal Name=Diddy Kong Racing
 Status=Bad ROM?
 Core Note=Use good dump
-32bit=No
 
 [53D440E7-7519B011-C:45]
 Good Name=Diddy Kong Racing (U) (M2) (V1.0)
 Internal Name=Diddy Kong Racing
 Status=Compatible
-32bit=No
 
 [E402430D-D2FCFC9D-C:45]
 Good Name=Diddy Kong Racing (U) (M2) (V1.1)
 Internal Name=Diddy Kong Racing
 Status=Compatible
-32bit=No
 
 [C16C421B-A21580F7-C:45]
 Good Name=Disney's Donald Duck - Goin' Quackers (U) (M4)
@@ -1478,7 +1455,6 @@ Good Name=Donkey Kong 64 (E)
 Internal Name=DONKEY KONG 64
 Status=Compatible
 Plugin Note=[Glide64] fairy bug; transitions
-32bit=No
 Counter Factor=1
 Culling=1
 RDRAM Size=8
@@ -1489,7 +1465,6 @@ Good Name=Donkey Kong 64 (J)
 Internal Name=DONKEY KONG 64
 Status=Compatible
 Plugin Note=[Glide64] fairy bug; transitions
-32bit=No
 Counter Factor=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
@@ -1499,7 +1474,6 @@ Good Name=Donkey Kong 64 (U)
 Internal Name=DONKEY KONG 64
 Status=Compatible
 Plugin Note=[Glide64] fairy bug; transitions
-32bit=No
 Counter Factor=1
 Culling=1
 Emulate Clear=1
@@ -1512,7 +1486,6 @@ Good Name=Donkey Kong 64 (U) (Kiosk Demo)
 Internal Name=D K DISPLAY
 Status=Compatible
 Core Note=
-32bit=No
 Counter Factor=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
@@ -1521,26 +1494,22 @@ Save Type=16kbit Eeprom
 Good Name=Doom 64 (E)
 Internal Name=Doom64
 Status=Compatible
-32bit=No
 
 [7AA65B36-FDCEE5AD-C:4A]
 Good Name=Doom 64 (J)
 Internal Name=DOOM64
 Status=Compatible
-32bit=No
 
 [A83E101A-E937B69D-C:45]
 Good Name=Doom 64 (U) (V1.0)
 Internal Name=Doom64
 Status=Compatible
-32bit=No
 Culling=1
 
 [423E96F4-CE88F05B-C:45]
 Good Name=Doom 64 (U) (V1.1)
 Internal Name=Doom64
 Status=Compatible
-32bit=No
 Culling=1
 
 [BFF7B1C2-AEBF148E-C:4A]
@@ -1789,14 +1758,12 @@ Status=Compatible
 Good Name=F-1 Pole Position 64 (E) (M3)
 Internal Name=F1 POLE POSITION 64
 Status=Compatible
-32bit=No
 Clear Frame=1
 
 [AE82687A-9A3F388D-C:45]
 Good Name=F-1 Pole Position 64 (U) (M3)
 Internal Name=F1 POLE POSITION 64
 Status=Compatible
-32bit=No
 Clear Frame=1
 Culling=1
 
@@ -1843,7 +1810,6 @@ Good Name=F-ZERO X (E)
 Internal Name=F-ZERO X
 Status=Compatible
 Plugin Note=[Glide64] missing menu effects.
-32bit=No
 Clear Frame=2
 
 [4D3E622E-9B828B4E-C:4A]
@@ -1853,7 +1819,6 @@ RDRAM Size=8
 Fixed Audio=0
 Status=Compatible
 Plugin Note=[Glide64] missing menu effects
-32bit=No
 Culling=1
 
 [B30ED978-3003C9F9-C:45]
@@ -1861,7 +1826,6 @@ Good Name=F-ZERO X (U)
 Internal Name=F-ZERO X
 Status=Compatible
 Plugin Note=[Glide64] missing effects
-32bit=No
 Clear Frame=2
 Culling=1
 
@@ -1869,7 +1833,6 @@ Culling=1
 Good Name=F-ZERO X + Expansion Kit (J) [CART HACK]
 Status=Compatible
 Plugin Note=[Glide64] missing effects
-32bit=No
 RDRAM Size=8
 Culling=1
 AllowROMWrites=Yes
@@ -1878,7 +1841,6 @@ AllowROMWrites=Yes
 Good Name=F-ZERO X + Expansion Kit (U) [CART HACK]
 Status=Compatible
 Plugin Note=[Glide64] missing effects
-32bit=No
 RDRAM Size=8
 Culling=1
 AllowROMWrites=Yes
@@ -1910,46 +1872,39 @@ Clear Frame=1
 Good Name=FIFA - Road to World Cup 98 (E) (M7)
 Internal Name=FIFA: RTWC 98
 Status=Compatible
-32bit=No
 
 [CB1ACDDE-CF291DF2-C:45]
 Good Name=FIFA - Road to World Cup 98 (U) (M7)
 Internal Name=FIFA: RTWC 98
 Status=Compatible
-32bit=No
 
 [F5733C67-17A3973A-C:4A]
 Good Name=FIFA - Road to World Cup 98 - World Cup heno Michi (J)
 Internal Name=RoadToWorldCup98
 Status=Compatible
-32bit=No
 
 [0198A651-FC219D84-C:50]
 Good Name=FIFA 99 (E) (M8)
 Internal Name=FIFA 99
 Status=Compatible
 Counter Factor=1
-32bit=No
 
 [7613A630-3ED696F3-C:45]
 Good Name=FIFA 99 (U)
 Internal Name=FIFA 99
 Status=Compatible
 Counter Factor=1
-32bit=No
 
 [C3F19159-65D2BC5A-C:50]
 Good Name=FIFA Soccer 64 (E) (M3)
 Internal Name=FIFA Soccer 64
 Status=Compatible
-32bit=No
 ViRefresh=2504
 
 [C3F19159-65D2BC5A-C:45]
 Good Name=FIFA Soccer 64 (U) (M3)
 Internal Name=FIFA Soccer 64
 Status=Compatible
-32bit=No
 ViRefresh=2504
 
 [AEEF2F45-F97E30F1-C:45]
@@ -2037,7 +1992,6 @@ Good Name=Fushigi no Dungeon - Fuurai no Shiren 2 - Oni Shuurai! Shiren Jou! (J)
 Internal Name=F3 ﾌｳﾗｲﾉｼﾚﾝ2
 Status=Compatible
 Counter Factor=1
-32bit=No
 
 //================  G  ================
 [68FCF726-49658CBC-C:50]
@@ -2082,7 +2036,6 @@ RDRAM Size=8
 Good Name=Ganbare! Nippon! Olympics 2000 (J)
 Internal Name=OLYMPIC 2000
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [D543BCD6-2BA5E256-C:50]
@@ -2172,7 +2125,6 @@ Status=Compatible
 Good Name=Goemon - Mononoke Sugoroku (J)
 Internal Name=ºÞ´ÓÝÓÉÉ¹½ºÞÛ¸
 Status=Compatible
-32bit=No
 
 [4252A5AD-AE6FBF4E-C:45]
 Good Name=Goemon's Great Adventure (U)
@@ -2193,7 +2145,6 @@ Internal Name=GOLDENEYE
 Status=Compatible
 Core Note=Intro too fast
 Plugin Note=[Glide64] frigate water bug
-32bit=No
 Clear Frame=2
 FuncFind=2
 SMM-Cache=0
@@ -2207,7 +2158,6 @@ Internal Name=GOLDENEYE
 Status=Compatible
 Core Note=Intro too fast
 Plugin Note=[Glide64] frigate water bug
-32bit=No
 Clear Frame=2
 FuncFind=2
 SMM-Cache=0
@@ -2221,7 +2171,6 @@ Internal Name=GOLDENEYE
 Status=Compatible
 Core Note=Intro too fast
 Plugin Note=[Glide64] frigate water bug
-32bit=No
 Clear Frame=2
 Culling=1
 FuncFind=2
@@ -2237,7 +2186,6 @@ TLB: Vaddr Start=2130706432
 [FF42BE66-91CA9B1D-C:45]
 Good Name=GoldenEye X 5d
 Status=Compatible
-32bit=No
 Clear Frame=2
 Culling=1
 FuncFind=2
@@ -2251,7 +2199,6 @@ Save Type=16kbit Eeprom
 [A4844AA2-8E13A961-C:45]
 Good Name=GoldenEye X 5d (Cloudless)
 Status=Compatible
-32bit=No
 Clear Frame=2
 Culling=1
 FuncFind=2
@@ -2427,7 +2374,6 @@ ViRefresh=1450
 Good Name=Human Grand Prix - New Generation (J)
 Internal Name=HUMAN GRAND PRIX
 Status=Compatible
-32bit=No
 Clear Frame=1
 Culling=1
 
@@ -2435,21 +2381,18 @@ Culling=1
 Good Name=Hybrid Heaven (E) (M3)
 Internal Name=HYBRID HEAVEN PAL
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [0DE2CE36-D41D29E6-C:4A]
 Good Name=Hybrid Heaven (J)
 Internal Name=HYBRID HEAVEN JP
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [102888BF-434888CA-C:45]
 Good Name=Hybrid Heaven (U)
 Internal Name=HYBRID HEAVEN USA
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [B58988E9-B1FC4BE8-C:50]
@@ -2519,7 +2462,6 @@ Good Name=Indiana Jones and the Infernal Machine (E) (Unreleased)
 Internal Name=Indiana Jones
 Status=Issues (plugin)
 Plugin Note=[video] HLE not supported
-32bit=No
 AudioResetOnLoad=Yes
 Fast SP=No
 HLE GFX=No
@@ -2537,7 +2479,6 @@ Good Name=Indiana Jones and the Infernal Machine (U)
 Internal Name=Indiana Jones
 Status=Issues (plugin)
 Plugin Note=[video] HLE not supported
-32bit=No
 AudioResetOnLoad=Yes
 Fast SP=No
 HLE GFX=No
@@ -2570,21 +2511,18 @@ Status=Compatible
 Good Name=International Superstar Soccer 2000 (E) (M2) (Eng-Ger)
 Internal Name=I.S.S.2000
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [BAE8E871-35FF944E-C:59]
 Good Name=International Superstar Soccer 2000 (E) (M2) (Fre-Ita)
 Internal Name=I.S.S.2000
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [8E835437-CD5748B4-C:45]
 Good Name=International Superstar Soccer 2000 (U) (M2)
 Internal Name=I.S.S.2000
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [E2D37CF0-F57E4EAE-C:50]
@@ -2604,14 +2542,12 @@ Culling=1
 Good Name=International Track & Field 2000 (U)
 Internal Name=ITF 2000
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [6712C779-3B72781D-C:50]
 Good Name=International Track & Field Summer Games (E) (M3)
 Internal Name=IT&F SUMMERGAMES
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [D137A2CA-62B65053-C:4A]
@@ -2637,7 +2573,6 @@ Plugin Note=[video] slow
 Good Name=J.League Live 64 (J)
 Internal Name=J LEAGUE LIVE 64
 Status=Compatible
-32bit=No
 
 [E8D29DA0-15E61D94-C:4A]
 Good Name=J.League Tactics Soccer (J) (V1.0)
@@ -2658,7 +2593,6 @@ Status=Compatible
 Good Name=Japan Pro Golf Tour 64 (J) [CART HACK]
 Status=Issues (core)
 Core Note=Saves not supported
-32bit=No
 Counter Factor=1
 RDRAM Size=8
 AllowROMWrites=Yes
@@ -2685,7 +2619,6 @@ Good Name=Jet Force Gemini (E) (M4)
 Internal Name=JET FORCE GEMINI
 Status=Compatible
 Plugin Note=[Glide64] incorrect shadows
-32bit=No
 Counter Factor=1
 Culling=1
 Emulate Clear=1
@@ -2700,7 +2633,6 @@ Good Name=Jet Force Gemini (U)
 Internal Name=JET FORCE GEMINI
 Status=Compatible
 Plugin Note=[Glide64] incorrect shadows
-32bit=No
 Counter Factor=1
 Culling=1
 Emulate Clear=1
@@ -2715,7 +2647,6 @@ Good Name=Jet Force Gemini (U) (Kiosk Demo)
 Internal Name=J F G DISPLAY
 Status=Compatible
 Plugin Note=[Glide64] incorrect shadows
-32bit=No
 Counter Factor=1
 SMM-Cache=0
 SMM-FUNC=0
@@ -2738,14 +2669,12 @@ Counter Factor=1
 Good Name=Jikkyou J.League 1999 - Perfect Striker 2 (J) (V1.0)
 Internal Name=PERFECT STRIKER2
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [6309FC17-1D4F5EF3-C:4A]
 Good Name=Jikkyou J.League 1999 - Perfect Striker 2 (J) (V1.1)
 Internal Name=PERFECT STRIKER2
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [146C4366-72A6DEB3-C:4A]
@@ -2792,19 +2721,16 @@ Status=Compatible
 Good Name=Jikkyou Powerful Pro Yakyuu 6 (J) (V1.0)
 Internal Name=PAWAFURU PUROYAKYU6
 Status=Compatible
-32bit=No
 
 [3C084040-081B060C-C:4A]
 Good Name=Jikkyou Powerful Pro Yakyuu 6 (J) (V1.1)
 Internal Name=PAWAFURU PUROYAKYU6
 Status=Compatible
-32bit=No
 
 [438E6026-3BA24E07-C:4A]
 Good Name=Jikkyou Powerful Pro Yakyuu 6 (J) (V1.2)
 Internal Name=PAWAFURU PUROYAKYU6
 Status=Compatible
-32bit=No
 
 [6EDD4766-A93E9BA8-C:4A]
 Good Name=Jikkyou Powerful Pro Yakyuu Basic Ban 2001 (J) (V1.0)
@@ -2895,28 +2821,24 @@ RDRAM Size=8
 Good Name=Killer Instinct Gold (E)
 Internal Name=Killer Instinct Gold
 Status=Compatible
-32bit=No
 Clear Frame=2
 
 [9E8FE2BA-8B270770-C:45]
 Good Name=Killer Instinct Gold (U) (V1.0)
 Internal Name=KILLER INSTINCT GOLD
 Status=Compatible
-32bit=No
 Clear Frame=2
 
 [9E8FCDFA-49F5652B-C:45]
 Good Name=Killer Instinct Gold (U) (V1.1)
 Internal Name=KILLER INSTINCT GOLD
 Status=Compatible
-32bit=No
 Clear Frame=2
 
 [F908CA4C-36464327-C:45]
 Good Name=Killer Instinct Gold (U) (V1.2)
 Internal Name=Killer Instinct Gold
 Status=Compatible
-32bit=No
 Clear Frame=2
 
 [519EA4E1-EB7584E8-C:4A]
@@ -2925,7 +2847,6 @@ Internal Name=KING HILL 64
 Status=Issues (mixed)
 Core Note=Bad sound
 Plugin Note=[Glide64] no fog
-32bit=No
 Culling=1
 RDRAM Size=8
 
@@ -3008,7 +2929,6 @@ Save Type=4kbit Eeprom
 Good Name=Kyojin no Doshin 1 (J) [CART HACK]
 Status=Issues (core)
 Core Note=Saves not supported
-32bit=No
 AllowROMWrites=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -3018,7 +2938,6 @@ RDRAM Size=8
 Good Name=Kyojin no Doshin 1 (J) (Kiosk Demo) [CART HACK]
 Status=Issues (core)
 Core Note=Saves not supported
-32bit=No
 AllowROMWrites=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -3028,7 +2947,6 @@ RDRAM Size=8
 Good Name=Kyojin no Doshin - Kaihou Sensen Chibikko Chikko Daishuugou (J) [CART HACK]
 Status=Issues (core)
 Core Note=Saves not supported
-32bit=No
 AllowROMWrites=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -3220,7 +3138,6 @@ Plugin Note=[video] Glide64 crashes; slow
 [AB9EB27D-5F05605F-C:4A]
 Good Name=Mario Artist - Communication Kit (J) [CART HACK]
 Status=Compatible
-32bit=No
 AllowROMWrites=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -3229,7 +3146,6 @@ RDRAM Size=8
 Good Name=Mario Artist - Paint Studio (J) [CART HACK]
 Status=Issues (plugin)
 Plugin Note=[video] HLE not fully supported; stamps not working
-32bit=No
 AllowROMWrites=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -3238,7 +3154,6 @@ RDRAM Size=8
 Good Name=Mario Artist - Polygon Studio (J) [CART HACK]
 Status=Issues (plugin)
 Plugin Note=[video] HLE not fully supported; cannot model
-32bit=No
 AllowROMWrites=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -3248,7 +3163,6 @@ RDRAM Size=8
 Good Name=Mario Artist - Talent Studio (J) [CART HACK]
 Status=Issues (plugin)
 Plugin Note=[video] HLE not fully supported; face and animation editing does not work
-32bit=No
 AllowROMWrites=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -3400,7 +3314,6 @@ Save Type=16kbit Eeprom
 Good Name=Mario Story (J)
 Internal Name=MARIO STORY
 Status=Compatible
-32bit=No
 Save Type=FlashRam
 Clear Frame=1
 Counter Factor=1
@@ -3411,7 +3324,6 @@ Good Name=Mario Tennis (E)
 Internal Name=MarioTennis
 Status=Issues (plugin)
 Plugin Note=[Glide64] errors:various
-32bit=No
 Culling=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
@@ -3421,7 +3333,6 @@ Good Name=Mario Tennis (U)
 Internal Name=MarioTennis
 Status=Issues (plugin)
 Plugin Note=[Glide64] errors:various
-32bit=No
 Culling=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
@@ -3431,7 +3342,6 @@ Good Name=Mario Tennis 64 (J)
 Internal Name=MarioTennis64
 Status=Issues (plugin)
 Plugin Note=[Glide64] errors:various
-32bit=No
 RDRAM Size=8
 Save Type=16kbit Eeprom
 
@@ -3709,7 +3619,6 @@ Status=Compatible
 Good Name=Namco Museum 64 (U)
 Internal Name=NAMCOMUSEUM64
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [DF331A18-5FD4E044-C:45]
@@ -3717,7 +3626,6 @@ Good Name=NASCAR 2000 (U)
 Internal Name=NASCAR 2000
 Status=Issues (plugin)
 Plugin Note=[Glide64] splitscreen broken
-32bit=No
 Clear Frame=2
 Counter Factor=1
 Culling=1
@@ -3728,7 +3636,6 @@ Good Name=NASCAR 99 (E) (M3)
 Internal Name=NASCAR 99
 Status=Issues (plugin)
 Plugin Note=[Glide64] splitscreen broken
-32bit=No
 Counter Factor=1
 Clear Frame=2
 RDRAM Size=8
@@ -3737,7 +3644,6 @@ RDRAM Size=8
 Good Name=NASCAR 99 (U)
 Internal Name=NASCAR 99
 Status=Compatible
-32bit=No
 Counter Factor=1
 Clear Frame=2
 RDRAM Size=8
@@ -3818,14 +3724,12 @@ Status=Compatible
 Good Name=NBA Live 2000 (E) (M4)
 Internal Name=NBA LIVE 2000
 Status=Compatible
-32bit=No
 
 [5F25B0EE-6227C1DB-C:45]
 Good Name=NBA Live 2000 (U) (M4)
 Internal Name=NBA LIVE 2000
 Status=Compatible
 Culling=1
-32bit=No
 
 [CF84F45F-00E4F6EB-C:50]
 Good Name=NBA Live 99 (E) (M5)
@@ -3879,13 +3783,11 @@ Status=Compatible
 Good Name=NFL Blitz 2000 (U) (V1.0)
 Internal Name=blitz2k
 Status=Compatible
-32bit=No
 
 [5B755842-6CA39C7A-C:45]
 Good Name=NFL Blitz 2000 (U) (V1.1)
 Internal Name=blitz2k
 Status=Compatible
-32bit=No
 
 [36FA35EB-E85E2E36-C:45]
 Good Name=NFL Blitz 2001 (U)
@@ -3915,7 +3817,6 @@ Good Name=NFL Quarterback Club 98 (E)
 Internal Name=quarterback_club_98
 Status=Compatible
 Plugin Note=[video] HLE not supported
-32bit=No
 HLE GFX=No
 
 [D89BE2F8-99C97ADF-C:45]
@@ -3923,7 +3824,6 @@ Good Name=NFL Quarterback Club 98 (U)
 Internal Name=quarterback_club_98
 Status=Compatible
 Plugin Note=[video] HLE not supported
-32bit=No
 HLE GFX=No
 
 [52A3CF47-4EC13BFC-C:50]
@@ -3942,14 +3842,12 @@ RDRAM Size=8
 Good Name=NHL 99 (E)
 Internal Name=NHL 99
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [591A806E-A5E6921D-C:45]
 Good Name=NHL 99 (U)
 Internal Name=NHL 99
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [82EFDC30-806A2461-C:45]
@@ -4066,19 +3964,16 @@ Plugin Note=[Glide64] multiplayer flicker
 Good Name=Ogre Battle 64 - Person of Lordly Caliber (J) (V1.1)
 Internal Name=OgreBattle64
 Status=Compatible
-32bit=No
 
 [E6419BC5-69011DE3-C:45]
 Good Name=Ogre Battle 64 - Person of Lordly Caliber (U) (V1.0)
 Internal Name=OgreBattle64
 Status=Compatible
-32bit=No
 
 [0ADAECA7-B17F9795-C:45]
 Good Name=Ogre Battle 64 - Person of Lordly Caliber (U) (V1.1)
 Internal Name=OgreBattle64
 Status=Compatible
-32bit=No
 
 [AE2D3A35-24F0D41A-C:50]
 Good Name=Olympic Hockey Nagano '98 (E) (M4)
@@ -4127,7 +4022,6 @@ Status=Compatible
 Good Name=Paper Mario (E) (M4)
 Internal Name=PAPER MARIO
 Status=Compatible
-32bit=No
 Save Type=FlashRam
 Clear Frame=1
 Counter Factor=1
@@ -4137,7 +4031,6 @@ Culling=1
 Good Name=Paper Mario (U)
 Internal Name=PAPER MARIO
 Status=Compatible
-32bit=No
 Save Type=FlashRam
 Clear Frame=1
 Counter Factor=1
@@ -4182,7 +4075,6 @@ Good Name=Perfect Dark (E) (M5)
 Internal Name=Perfect Dark
 Status=Compatible
 Plugin Note=[Glide64] splitscreen flicker
-32bit=No
 Clear Frame=2
 RDRAM Size=8
 SMM-Cache=0
@@ -4197,7 +4089,6 @@ Good Name=Perfect Dark (J)
 Internal Name=PERFECT DARK
 Status=Compatible
 Plugin Note=[Glide64] splitscreen flicker
-32bit=No
 Clear Frame=2
 RDRAM Size=8
 SMM-Cache=0
@@ -4212,7 +4103,6 @@ Good Name=Perfect Dark (U) (V1.0)
 Internal Name=Perfect Dark
 Status=Compatible
 Plugin Note=[Glide64] splitscreen flicker
-32bit=No
 Clear Frame=2
 Culling=1
 FuncFind=2
@@ -4228,7 +4118,6 @@ Good Name=Perfect Dark (U) (V1.1)
 Internal Name=Perfect Dark
 Status=Compatible
 Plugin Note=[Glide64] splitscreen flicker
-32bit=No
 Clear Frame=2
 Culling=1
 FuncFind=2
@@ -4244,7 +4133,6 @@ Good Name=Perfect Dark XBLA Mp3 (1.0)
 Internal Name=Perfect Dark
 Status=Compatible
 Plugin Note=[Glide64] splitscreen flicker
-32bit=No
 Clear Frame=2
 Culling=1
 FuncFind=2
@@ -4850,7 +4738,6 @@ Good Name=Resident Evil 2 (E) (M2)
 Internal Name=Resident Evil II
 Status=Compatible
 Plugin Note=[Glide64] some glitched backgrounds
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 Linking=Off
@@ -4860,7 +4747,6 @@ Good Name=Resident Evil 2 (U) (V1.0)
 Internal Name=Resident Evil II
 Status=Compatible
 Plugin Note=[Glide64] some glitched backgrounds
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 Culling=1
@@ -4871,7 +4757,6 @@ Good Name=Resident Evil 2 (U) (V1.1)
 Internal Name=Resident Evil II
 Status=Compatible
 Plugin Note=[Glide64] some glitched backgrounds
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 Culling=1
@@ -5149,7 +5034,6 @@ RDRAM Size=8
 Good Name=Sim City 64 (J) [CART HACK]
 Status=Issues (plugin)
 Plugin Note=[Glide64] incompatible; use GLideN64
-32bit=No
 Counter Factor=1
 HLE GFX=No
 RDRAM Size=8
@@ -5369,7 +5253,6 @@ Good Name=Star Wars - Rogue Squadron (E) (M3) (V1.0)
 Internal Name=Rogue Squadron
 Status=Compatible
 Plugin Note=[video] HLE requires GLideN64
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -5380,7 +5263,6 @@ Good Name=Star Wars - Rogue Squadron (E) (M3) (V1.1)
 Internal Name=Rogue Squadron
 Status=Compatible
 Plugin Note=[video] HLE requires GLideN64
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -5391,7 +5273,6 @@ Good Name=Star Wars - Rogue Squadron (U) (V1.0)
 Internal Name=Rogue Squadron
 Status=Compatible
 Plugin Note=[video] HLE requires GLideN64
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -5402,7 +5283,6 @@ Good Name=Star Wars - Rogue Squadron (U) (V1.1)
 Internal Name=Rogue Squadron
 Status=Compatible
 Plugin Note=HLE requires GLideN64
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 RDRAM Size=8
@@ -5446,7 +5326,6 @@ Good Name=Star Wars - Shutsugeki! Rogue Chuutai (J)
 Internal Name=rogue squadron
 Status=Issues (plugin)
 Plugin Note=[video] HLE requires GLideN64
-32bit=No
 RDRAM Size=8
 RSP-JumpTableSize=3584
 
@@ -5464,7 +5343,6 @@ Good Name=Star Wars Episode I - Battle for Naboo (E)
 Internal Name=Battle for Naboo
 Status=Issues (plugin)
 Plugin Note=[video] HLE not supported
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 HLE GFX=No
@@ -5476,7 +5354,6 @@ Good Name=Star Wars Episode I - Battle for Naboo (U)
 Internal Name=Battle for Naboo
 Status=Issues (plugin)
 Plugin Note=[video] HLE not supported
-32bit=No
 AudioResetOnLoad=Yes
 Counter Factor=1
 HLE GFX=No
@@ -5567,7 +5444,6 @@ Good Name=Stunt Racer 64 (U)
 Internal Name=Stunt Racer 64
 Status=Issues (plugin)
 Plugin Note=[video] HLE not supported [audio] needs audio plugin
-32bit=No
 AudioResetOnLoad=Yes
 HLE GFX=No
 RDRAM Size=8
@@ -5669,14 +5545,12 @@ Cheat0=8000148F 0003 //Framerate speed fix
 Good Name=Supercross 2000 (E) (M3)
 Internal Name=Supercross
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [C1452553-5D7B24D9-C:45]
 Good Name=Supercross 2000 (U)
 Internal Name=Supercross
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [B44CAB74-07029A29-C:50]
@@ -5880,7 +5754,6 @@ RDRAM Size=8
 Good Name=The Legend of Zelda - Ocarina of Time (U) (V1.0)
 Internal Name=THE LEGEND OF ZELDA
 Status=Compatible
-32bit=No
 Aspect Correction=1
 Cheat0=801DA5CB 0002 //Subscreen Delay Fix
 CheatPlugin0=Jabo's Direct3D8,Glide64 For PJ64
@@ -5898,7 +5771,6 @@ RDRAM Size=8
 Good Name=The Legend of Zelda - Ocarina of Time (U) (V1.1)
 Internal Name=THE LEGEND OF ZELDA
 Status=Compatible
-32bit=No
 Cheat0=801DA78B 0002 //Subscreen Delay Fix
 CheatPlugin0=Jabo's Direct3D8,Glide64 For PJ64
 Culling=1
@@ -5915,7 +5787,6 @@ RDRAM Size=8
 Good Name=The Legend of Zelda - Ocarina of Time (U) (V1.2)
 Internal Name=THE LEGEND OF ZELDA
 Status=Compatible
-32bit=No
 Cheat0=801DAE8B 0002
 CheatPlugin0=Jabo's Direct3D8,Glide64 For PJ64
 Culling=1
@@ -6028,7 +5899,6 @@ Status=Compatible
 Good Name=Tom Clancy's Rainbow Six (E)
 Internal Name=RAINBOW SIX
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [486BF335-034DCC81-C:46]
@@ -6041,14 +5911,12 @@ RDRAM Size=8
 Good Name=Tom Clancy's Rainbow Six (G)
 Internal Name=RAINBOW SIX
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [392A0C42-B790E77D-C:45]
 Good Name=Tom Clancy's Rainbow Six (U)
 Internal Name=RAINBOW SIX
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [21260D94-06AE1DFE-C:45]
@@ -6182,7 +6050,6 @@ Internal Name=TOP GEAR RALLY
 Status=Issues (mixed)
 Core Note=Bad sound
 Plugin Note=[Glide64] car dust, windscreen reflection
-32bit=No
 
 [0E596247-753D4B8B-C:4A]
 Good Name=Top Gear Rally (J)
@@ -6190,7 +6057,6 @@ Internal Name=TOP GEAR RALLY
 Status=Issues (mixed)
 Core Note=Bad sound
 Plugin Note=[Glide64] car dust, windscreen reflection
-32bit=No
 
 [62269B3D-FE11B1E8-C:45]
 Good Name=Top Gear Rally (U)
@@ -6198,7 +6064,6 @@ Internal Name=TOP GEAR RALLY
 Status=Issues (mixed)
 Core Note=Bad sound
 Plugin Note=[Glide64] car dust, windscreen reflection
-32bit=No
 
 [BEBAB677-51B0B5E4-C:50]
 Good Name=Top Gear Rally 2 (E)
@@ -6282,7 +6147,6 @@ Status=Compatible
 Good Name=Triple Play 2000 (U)
 Internal Name=TRIPLE PLAY 2000
 Status=Compatible
-32bit=No
 Counter Factor=1
 
 [B6BC0FB0-E3812198-C:4A]
@@ -6464,7 +6328,6 @@ Internal Name=TWISTED EDGE
 Status=Issues (mixed)
 Core Note=Bad sound
 Plugin Note=[Glide64] no fog
-32bit=No
 Culling=1
 RDRAM Size=8
 
@@ -6474,7 +6337,6 @@ Internal Name=TWISTED EDGE
 Status=Issues (mixed)
 Core Note=Bad sound
 Plugin Note=[Glide64] no fog
-32bit=No
 Culling=1
 RDRAM Size=8
 
@@ -6727,14 +6589,12 @@ Status=Compatible
 Good Name=WCW Mayhem (E)
 Internal Name=WCW MAYHEM
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [33BE8CD6-EC186912-C:45]
 Good Name=WCW Mayhem (U)
 Internal Name=WCW MAYHEM
 Status=Compatible
-32bit=No
 RDRAM Size=8
 
 [D4C45A1A-F425B25E-C:45]
@@ -6863,14 +6723,12 @@ Counter Factor=1
 Good Name=World Cup 98 (E) (M8)
 Internal Name=World Cup 98
 Status=Compatible
-32bit=No
 Reg Cache=No
 
 [BD636D6A-5D1F54BA-C:45]
 Good Name=World Cup 98 (U) (M8)
 Internal Name=World Cup 98
 Status=Compatible
-32bit=No
 Reg Cache=No
 
 [AC062778-DFADFCB8-C:50]
@@ -6878,7 +6736,6 @@ Good Name=World Driver Championship (E) (M5)
 Internal Name=WORLD DRIVER CHAMP
 Status=Issues (plugin)
 Plugin Note=[video] HLE not supported [audio] needs audio plugin
-32bit=No
 AudioResetOnLoad=Yes
 HLE GFX=No
 RSP-Mfc0Count=10
@@ -6888,7 +6745,6 @@ Good Name=World Driver Championship (U)
 Internal Name=WORLD DRIVER CHAMP
 Status=Issues (plugin)
 Plugin Note=[video] HLE not supported [audio] needs audio plugin
-32bit=No
 AudioResetOnLoad=Yes
 HLE GFX=No
 RSP-Mfc0Count=10
@@ -7139,21 +6995,18 @@ Status=Compatible
 // ROMs below are 64DD content
 
 [00000000-00000000-C:4A]
-32bit=No
 Fixed Audio=0
 Good Name=64DD IPL (JPN)
 RDRAM Size=8
 Status=Compatible
 
 [00000000-00000000-C:45]
-32bit=No
 Fixed Audio=0
 Good Name=64DD IPL (USA)
 RDRAM Size=8
 Status=Compatible
 
 [E848D316-444D504A-C:4A]
-32bit=No
 Core Note=Cannot use Capture Pak functionality.
 Fixed Audio=0
 Good Name=Mario Artist Paint Studio (J)
@@ -7161,7 +7014,6 @@ RDRAM Size=8
 Status=Compatible
 
 [E848D316-444D544A-C:4A]
-32bit=No
 Core Note=Cannot use Capture Pak functionality.
 Fixed Audio=0
 Good Name=Mario Artist Talent Studio (J)
@@ -7169,7 +7021,6 @@ RDRAM Size=8
 Status=Compatible
 
 [E848D316-444D424A-C:4A]
-32bit=No
 Core Note=Cannot use Randnet & Capture Pak functionality.
 Fixed Audio=0
 Good Name=Mario Artist Communication Kit (J)
@@ -7177,7 +7028,6 @@ RDRAM Size=8
 Status=Compatible
 
 [E848D316-444D474A-C:4A]
-32bit=No
 Fixed Audio=0
 Good Name=Mario Artist Polygon Studio (J)
 Plugin Note=[Video] Cannot model on HLE plugins.
@@ -7185,7 +7035,6 @@ RDRAM Size=8
 Status=Issues (plugin)
 
 [E848D316-4453434A-C:4A]
-32bit=No
 Fixed Audio=1
 Good Name=Sim City 64 (J)
 Linking=Off
@@ -7194,7 +7043,6 @@ RDRAM Size=8
 Status=Issues (plugin)
 
 [E848D316-4450474A-C:4A]
-32bit=No
 Core Note=Major issues during gameplay
 Fixed Audio=0
 Good Name=Nihon Pro Golf Tour 64 (J)
@@ -7202,21 +7050,18 @@ RDRAM Size=8
 Status=Broken (core)
 
 [E848D316-444B444A-C:4A]
-32bit=No
 Fixed Audio=0
 Good Name=Kyojin no Doshin 1 (J)
 RDRAM Size=8
 Status=Compatible
 
 [E848D316-444B494A-C:4A]
-32bit=No
 Fixed Audio=0
 Good Name=Kyojin no Doshin 1 (J) (Store Demo)
 RDRAM Size=8
 Status=Compatible
 
 [E848D316-4452444A-C:4A]
-32bit=No
 Core Note=Modem Pak is required
 Fixed Audio=0
 Good Name=Randnet Disk (J)
@@ -7224,7 +7069,6 @@ RDRAM Size=8
 Status=Only intro/part OK
 
 [E848D316-444B4B4A-C:4A]
-32bit=No
 Core Note=Expansion Disk for Kyojin no Doshin 1. Use the Disk Swap feature to play.
 Fixed Audio=0
 Good Name=Kyojin no Doshin - Kaihou Sensen Chibikkochikko Dai Shuugou (J)
@@ -7232,7 +7076,6 @@ RDRAM Size=8
 Status=Compatible
 
 [E848D316-45465A4A-C:4A]
-32bit=No
 Core Note=Expansion Disk for F-Zero X. Play F-Zero X (J) with this disk loaded.
 Fixed Audio=0
 Good Name=F-ZERO X Expansion Kit (J)
@@ -7240,7 +7083,6 @@ RDRAM Size=8
 Status=Compatible
 
 [E848D316-7AB0252F-C:0]
-32bit=No
 Fixed Audio=0
 Good Name=Super Mario 64 Disk Version (J) (Spaceworld 1996 Demo)
 RDRAM Size=8

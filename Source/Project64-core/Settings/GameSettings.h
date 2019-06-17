@@ -34,7 +34,6 @@ public:
     inline static bool bSyncToAudio(void) { return m_bSyncToAudio; }
     inline static bool FullSpeed(void) { return m_FullSpeed; }
     inline static bool bFastSP(void) { return m_bFastSP; }
-    inline static bool b32BitCore(void) { return m_b32Bit; }
     inline static bool RspAudioSignal(void) { return m_RspAudioSignal; }
     inline static bool bSMM_StoreInstruc(void) { return m_bSMM_StoreInstruc; }
     inline static bool bSMM_Protect(void) { return m_bSMM_Protect; }
@@ -68,7 +67,6 @@ private:
     static bool m_bSyncToAudio;
     static bool m_FullSpeed;
     static bool m_bFastSP;
-    static bool m_b32Bit;
     static bool m_RspAudioSignal;
     static bool m_bSMM_StoreInstruc;
     static bool m_bSMM_Protect;

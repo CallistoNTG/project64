@@ -118,7 +118,6 @@
 #define IDC_LIST                        1012
 #define IDC_HLE_AUDIO                   1012
 #define IDC_SMM_CACHE                   1012
-#define IDC_ROM_32BIT                   1012
 #define IDC_INFO_COUNTRY                1013
 #define IDC_SHIFT                       1013
 #define IDC_TLB                         1013

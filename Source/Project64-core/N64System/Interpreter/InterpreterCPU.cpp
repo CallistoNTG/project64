@@ -228,15 +228,7 @@ void CInterpreterCPU::BuildCPU()
     R4300iOp::m_TestTimer = false;
     R4300iOp::m_NextInstruction = NORMAL;
     R4300iOp::m_JumpToLocation = 0;
-
-    if (g_Settings->LoadBool(Game_32Bit))
-    {
-        m_R4300i_Opcode = R4300iOp32::BuildInterpreter();
-    }
-    else
-    {
-        m_R4300i_Opcode = R4300iOp::BuildInterpreter();
-    }
+	m_R4300i_Opcode = R4300iOp::BuildInterpreter();
 }
 
 void CInterpreterCPU::InPermLoop()
