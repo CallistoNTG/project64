@@ -4,7 +4,6 @@
 
 HWND CSupportWindow::m_hParent = NULL;
 CSupportWindow * CSupportWindow::m_this = NULL;
-uint32_t CSupportWindow::m_RunCount = 0;
 
 CSupportWindow::CSupportWindow(void)
 {
@@ -23,17 +22,7 @@ void CALLBACK CSupportWindow::TimerProc(HWND, UINT, UINT_PTR idEvent, DWORD)
 
 void CSupportWindow::Show(HWND hParent)
 {
-    m_RunCount = UISettingsLoadDword(SupportWindows_RunCount);
-    if (m_RunCount == -1)
-    {
-        return;
-    }
-    UISettingsSaveDword(SupportWindows_RunCount, m_RunCount + 1);
-
-    if (m_RunCount < 3)
-    {
-        return;
-    }
+	return; //get me the heck outta here!
 
     m_hParent = hParent;
     m_this = this;
@@ -80,18 +69,6 @@ LRESULT CSupportWindow::OnInitDialog(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*
 
         m_EnterLink.SubclassWindow(GetDlgItem(IDC_ENTER_CODE));
         m_EnterLink.SetHyperLinkExtendedStyle(HLINK_COMMANDBUTTON,HLINK_COMMANDBUTTON);
-    }
-    if (m_RunCount >= 10)
-    {
-        HMENU menu = GetSystemMenu(false);
-        RemoveMenu(menu, SC_CLOSE, MF_BYCOMMAND);
-        DWORD dwStyle = GetWindowLong(GWL_STYLE);
-        dwStyle |= CS_NOCLOSE;
-        SetWindowLong(GWL_STYLE, dwStyle);
-
-        ::EnableWindow(GetDlgItem(IDCANCEL), false);
-        srand ((uint32_t)time(NULL));
-        SetTimer(0, ((rand() % 35) + 5) * 1000, NULL);
     }
     return TRUE;
 }
@@ -141,7 +118,7 @@ LRESULT CSupportWindow::OnEnterCode(WORD /*wNotifyCode*/, WORD wID, HWND /*hWndC
 {
     CSupportEnterCode EnterCodeWindow;
     EnterCodeWindow.DoModal(m_hWnd);
-    if (UISettingsLoadDword(SupportWindows_RunCount) == -1)
+    if (true)
     {
         EndDialog(wID);
     }

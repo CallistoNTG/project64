@@ -241,9 +241,6 @@ void GameCpuRunning(void * /*NotUsed*/)
         }
         g_System->RefreshGameSettings();
 
-        int RunCount = UISettingsLoadDword(Game_RunCount);
-        WriteTrace(TraceUserInterface, TraceDebug, "Setting Run Count to %d", RunCount + 1);
-        UISettingsSaveDword(Game_RunCount, RunCount + 1);
         if (env != NULL)
         {
             if (g_JavaBridge)

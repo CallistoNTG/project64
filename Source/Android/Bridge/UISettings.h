@@ -35,7 +35,6 @@ enum UISettingID
     SupportWindow_FirstRun,
     SupportWindow_AlwaysShow,
     SupportWindow_ShowingSupportWindow,
-    SupportWindow_RunCount,
 
     //Game Settings
     Game_RunCount,

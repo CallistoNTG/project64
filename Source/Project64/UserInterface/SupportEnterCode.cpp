@@ -53,7 +53,6 @@ LRESULT CSupportEnterCode::OnOkCmd(WORD /*wNotifyCode*/, WORD wID, HWND /*hWndCt
         MessageBoxW(m_hWnd, wGS(MSG_SUPPORT_INCORRECT_CODE).c_str(), wGS(MSG_SUPPORT_PROJECT64).c_str(), MB_OK);
         return false;
     }
-    UISettingsSaveDword(SupportWindows_RunCount, (uint32_t) -1);
     CSettingTypeApplication::Flush();
     MessageBoxW(m_hWnd, wGS(MSG_SUPPORT_COMPLETE).c_str(), wGS(MSG_SUPPORT_PROJECT64).c_str(), MB_OK);
     EndDialog(wID);
